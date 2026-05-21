@@ -1,0 +1,89 @@
+﻿@model Employee
+
+<div class="row">
+    <div class="col-md-10 grid-margin stretch-card">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4 class="card-title mb-0">Employee Details:</h4>
+                    <span class="text-muted small">ID: #@Model.Id</span>
+                </div>
+                <hr>
+
+                <div class="row pt-3">
+                    <div class="col-md-5">
+                        <div class="image-container p-2 border rounded bg-light text-center">
+                            <label class="d-block text-muted mb-2">Employee Image</label>
+                            <img src="~/assets/img/@Model.ImageUrl"
+                                 alt="@Model.Name"
+                                 class="img-fluid rounded"
+                                 style="max-height: 300px; max-width: 400px; object-fit: cover;" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-7">
+                        <table class="table table-borderless">
+                            <tbody>
+                                <tr>
+                                    <th style="width: 30%;" class="pl-0">Employee Name:</th>
+                                    <td>@Model.Name</td>
+                                </tr>
+                                <tr>
+                                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+                                    <th style="width: 30%;" class="pl-0">Social Medias:</th>
+                                    <td>
+                                        @if (Model.SocialMedias != null && Model.SocialMedias.Any())
+                                        {
+                                            foreach (var social in Model.SocialMedias)
+                                            {
+                                                string iconClass = social.Name.ToLowerInvariant() switch
+                                                {
+                                                     "twitter" => "bi-twitter-x",
+                                                     "facebook" => "bi-facebook",
+                                                     "instagram" => "bi-instagram",
+                                                     "linkedin" =>  "bi-linkedin",
+                                                      _         =>  "bi-globe"
+                                                };
+                                                <a style="color:black; font-size:20px; padding-right:10px" href="@social.Url" target="_blank"><i class="bi @iconClass"></i></a>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted small">No social media accounts</span>
+                                        }
+                                    </td>
+                                </tr>
+                                <tr style="color:black">
+                                    <th class="pl-0">Status:</th>
+                                    <td>
+                                        @if (!Model.IsDeleted)
+                                        {
+                                            <span class="badge badge-success">Active</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge badge-danger">Deleted</span>
+                                        }
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="mt-5 pt-3 border-top d-flex justify-content-end" style="display:flex; align-items:center; gap:10px">
+                    <a asp-action="Index" class="btn btn-outline-secondary mr-2" style="display:flex; align-items:center; gap:2px">
+                        <i class="mdi mdi-format-list-bulleted"></i>
+                        <span>Back</span>
+                    </a>
+                    <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-warning" style="display:flex; align-items:center; gap:2px">
+                        <i class="mdi mdi-pencil"></i>
+                        <span>Update</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

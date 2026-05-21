@@ -8,6 +8,8 @@ namespace Devi.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public DbSet<Portfolio> Portfolios { get; set; }
         public DbSet<Service> Services { get; set; }
-        public DbSet<Team> Teams { get; set; }
+        public DbSet<Position> Positions { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<SocialMedia> SocialMedias { get; set; }
     }
 }

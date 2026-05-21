@@ -6,6 +6,6 @@ namespace Devi.ViewModels
     {
         public List<Portfolio> Portfolios { get; set; }
         public List<Service> Services { get; set; }
-        public List<Team> Teams { get; set; }
+        public List<Employee> Employees { get; set; }
     }
 }

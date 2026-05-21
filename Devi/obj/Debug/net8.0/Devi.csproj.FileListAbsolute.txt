@@ -506,3 +506,4 @@ C:\Users\MSI\Desktop\Code Practice\Devi-MVC\Devi\obj\Debug\net8.0\refint\Devi.dl
 C:\Users\MSI\Desktop\Code Practice\Devi-MVC\Devi\obj\Debug\net8.0\Devi.pdb
 C:\Users\MSI\Desktop\Code Practice\Devi-MVC\Devi\obj\Debug\net8.0\Devi.genruntimeconfig.cache
 C:\Users\MSI\Desktop\Code Practice\Devi-MVC\Devi\obj\Debug\net8.0\ref\Devi.dll
+C:\Users\MSI\Desktop\Code Practice\Devi-MVC\Devi\obj\Debug\net8.0\Devi.sourcelink.json

@@ -19,7 +19,7 @@ namespace Devi.Controllers
             {
                 Services = await _context.Services.Where(s => !s.IsDeleted).ToListAsync(),
                 Portfolios = await _context.Portfolios.Where(p => !p.IsDeleted).ToListAsync(),
-                Teams = await _context.Teams.Where(t => !t.IsDeleted).ToListAsync()
+                Employees = await _context.Employees.Where(e => !e.IsDeleted).Include(e => e.Position).Include(e => e.SocialMedias).ToListAsync()
             };
             return View(homeVM);
         }

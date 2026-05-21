@@ -1,0 +1,55 @@
+﻿@model EmployeeUpdateVM;
+
+<div class="row">
+	<div class="col-md-6 grid-margin stretch-card">
+		<div class="card">
+			<div class="card-body">
+				<h4 class="card-title">Update Service</h4>
+				<form class="forms-sample" method="post" enctype="multipart/form-data">
+					<div class="form-group">
+						<label for="name">Photo</label>
+						<input asp-for="Photo" class="form-control" placeholder="Photo" accept="image/*">
+						<span asp-validation-for="Photo" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input asp-for="Name" class="form-control" placeholder="Name">
+						<span asp-validation-for="Name" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<label for="name">Position</label>
+						<select asp-for="PositionId" class="form-control" asp-items="@(new SelectList(Model.Positions, "Id", "Name"))">
+							<option value="" selected disabled>Vezife Secin</option>
+						</select>
+						<span asp-validation-for="PositionId" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<label for="name">TwitterUrl</label>
+						<textarea asp-for="TwitterUrl" class="form-control" placeholder="TwitterUrl"></textarea>
+						<span asp-validation-for="TwitterUrl" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<label for="name">FacebookUrl</label>
+						<textarea asp-for="FacebookUrl" class="form-control" placeholder="FacebookUrl"></textarea>
+						<span asp-validation-for="FacebookUrl" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<label for="name">InstagramUrl</label>
+						<textarea asp-for="InstagramUrl" class="form-control" placeholder="InstagramUrl"></textarea>
+						<span asp-validation-for="InstagramUrl" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<label for="name">LinkedinUrl</label>
+						<textarea asp-for="LinkedinUrl" class="form-control" placeholder="LinkedinUrl"></textarea>
+						<span asp-validation-for="LinkedinUrl" class="text-danger"></span>
+					</div>
+					<button type="submit" class="btn btn-primary me-2">Submit</button>
+					<a asp-action="index" class="btn btn-light">Cancel</a>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
