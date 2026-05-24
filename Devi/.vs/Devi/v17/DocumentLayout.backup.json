@@ -1,33 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\",
+  "WorkspaceRootPath": "C:\\Users\\MSI\\Desktop\\Devi-MVC\\Devi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\code practice\\devi-mvc\\devi\\areas\\adminpanel\\views\\team\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|solutionrelative:areas\\adminpanel\\views\\team\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\devi-mvc\\devi\\views\\portfolio\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|solutionrelative:views\\portfolio\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\code practice\\devi-mvc\\devi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\devi-mvc\\devi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\code practice\\devi-mvc\\devi\\areas\\adminpanel\\views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|solutionrelative:areas\\adminpanel\\views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\devi-mvc\\devi\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|solutionrelative:controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\code practice\\devi-mvc\\devi\\areas\\adminpanel\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|solutionrelative:areas\\adminpanel\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\code practice\\devi-mvc\\devi\\areas\\adminpanel\\views\\team\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|solutionrelative:areas\\adminpanel\\views\\team\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\code practice\\devi-mvc\\devi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\code practice\\devi-mvc\\devi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|c:\\users\\msi\\desktop\\devi-mvc\\devi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53BBB1ED-5BB5-48A8-B3A9-965F46A60E0F}|Devi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,88 +26,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Devi-MVC\\Devi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\Devi-MVC\\Devi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T21:08:06.951Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Areas\\AdminPanel\\Views\\Team\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Team\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Areas\\AdminPanel\\Views\\Team\\Detail.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Team\\Detail.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAiwC4AAABnAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Devi-MVC\\Devi\\Views\\Portfolio\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Portfolio\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\Devi-MVC\\Devi\\Views\\Portfolio\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Portfolio\\Detail.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAuwCoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T20:21:21.439Z",
+              "WhenOpened": "2026-05-24T20:36:38.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADoCAAAAAAAAAAAAAEQCAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T19:46:49.318Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Areas\\AdminPanel\\Views\\Team\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Team\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Areas\\AdminPanel\\Views\\Team\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Team\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T16:55:50.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Areas\\AdminPanel\\Views\\Team\\Update.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Team\\Update.cshtml",
-              "ToolTip": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Areas\\AdminPanel\\Views\\Team\\Update.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Team\\Update.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T16:55:37.572Z"
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Devi-MVC\\Devi\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\Devi-MVC\\Devi\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T20:32:21.516Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TeamController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Areas\\AdminPanel\\Controllers\\TeamController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\TeamController.cs",
-              "ToolTip": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Areas\\AdminPanel\\Controllers\\TeamController.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\TeamController.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAowNAAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:40:53.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T09:27:49.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\Devi-MVC\\Devi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MSI\\Desktop\\Code Practice\\Devi-MVC\\Devi\\Program.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\Devi-MVC\\Devi\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

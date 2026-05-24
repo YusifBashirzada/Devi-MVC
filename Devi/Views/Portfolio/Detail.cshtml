@@ -1,0 +1,84 @@
+﻿    @model Portfolio
+
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(/assets/img/page-title-bg.webp);">
+        <div class="container position-relative">
+            <h1>Portfolio Details</h1>
+            <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current">Portfolio Details</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <section id="portfolio-details" class="portfolio-details section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <div class="portfolio-details-slider swiper init-swiper">
+
+                    
+
+                        <div class="swiper-wrapper align-items-center">
+                            @if(Model.Image != null)
+                            {
+                                    <div class="swiper-slide">
+                                        <img src="~/assets/img/@Model.Image" alt="@Model.Category">
+                                    </div>
+                            }
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Project information</h3>
+                        <ul>
+                            <li><strong>Category</strong>: @Model.Category</li>
+                            <li><strong>Client</strong>: ASU Company</li>
+                            <li><strong>Project date</strong>: 01 March, 2020</li>
+                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                        <h2>@Model.Category </h2>
+                        <p>
+                            @Model.Description
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Swiper-in detail səhifəsində mütləq işə düşməsini təmin edirik
+            const swiperElement = document.querySelector('.portfolio-details-slider');
+            if (swiperElement) {
+                new Swiper('.portfolio-details-slider', {
+                    loop: true,
+                    speed: 600,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        type: 'bullets',
+                        clickable: true
+                    }
+                });
+            }
+        });
+    </script>
+}
